@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./assets/images/favicon-32x32.png"
+    />
+
+    <title>Frontend Mentor | Results summary component</title>
+
+    <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+    <!-- <style>
+    .attribution { font-size: 11px; text-align: center; }
+    .attribution a { color: hsl(228, 45%, 44%); }
+  </style> -->
+    <link rel="stylesheet" href="/dist/output.css" />
+  </head>
+  <body>
+    <div
+      class="md:flex md:justify-center md:items-center md:border md:h-screen "
+    >
+      <div
+        class="text-center bg-gradient-to-b from-blue-600 to-blue-800 py-6 rounded-b-3xl md:w-80 md:rounded-3xl md:shadow-lg"
+      >
+        <p class="text-gray-300 font-semibold text-lg mb-4">Your Result</p>
+        <div
+          class="mx-auto rounded-full bg-gradient-to-b from-blue-800 to-blue-600 w-40 h-40 p-4 mb-4"
+        >
+          <div class="w-full h-full grid items-center">
+            <p class="text-5xl text-white font-bold">76</p>
+            <p class="text-gray-300">of 100</p>
+          </div>
+        </div>
+        <p class="text-white font-semibold text-2xl mb-4">Great</p>
+        <p class="text-gray-300 px-14">
+          You scored higher than 65% of the people who have taken these tests.
+        </p>
+      </div>
+
+      <div class="p-6 md:w-80">
+        <p class="font-semibold text-lg mb-3">Summary</p>
+        <div class="flex-col space-y-4">
+          <div class="flex justify-between bg-red-50 p-4 rounded-xl">
+            <div class="flex">
+              <img src="assets/images/icon-reaction.svg" alt="lightning icon" />
+              <p class="ml-2 text-red-500 font-semibold">Reaction</p>
+            </div>
+            <p class="font-bold">
+              <span>80</span>
+              <span class="text-gray-400">/ 100</span>
+            </p>
+          </div>
+          <div class="flex justify-between bg-yellow-50 p-4 rounded-xl">
+            <div class="flex">
+              <img src="assets/images/icon-memory.svg" alt="brain icon" />
+              <p class="ml-2 text-yellow-500 font-semibold">Memory</p>
+            </div>
+            <p class="font-bold">
+              <span>92</span>
+              <span class="text-gray-400">/ 100</span>
+            </p>
+          </div>
+          <div class="flex justify-between bg-green-50 p-4 rounded-xl">
+            <div class="flex">
+              <img src="assets/images/icon-verbal.svg" alt="brain icon" />
+              <p class="ml-2 text-green-500 font-semibold">Verbal</p>
+            </div>
+            <p class="font-bold">
+              <span>61</span>
+              <span class="text-gray-400">/ 100</span>
+            </p>
+          </div>
+          <div class="flex justify-between bg-blue-50 p-4 rounded-xl">
+            <div class="flex">
+              <img src="assets/images/icon-visual.svg" alt="brain icon" />
+              <p class="ml-2 text-blue-700 font-semibold">Visual</p>
+            </div>
+            <p class="font-bold">
+              <span>72</span>
+              <span class="text-gray-400">/ 100</span>
+            </p>
+          </div>
+        </div>
+        <button
+          class="mt-6 w-full bg-slate-600 p-4 rounded-full text-white font-semibold text-lg"
+        >
+          Continue
+        </button>
+      </div>
+    </div>
+
+    <div class="text-center p-6">
+      Challenge by
+      <a
+        href="https://www.frontendmentor.io?ref=challenge"
+        target="_blank"
+        class="text-red-500 font-semibold"
+        >Frontend Mentor</a
+      >. Coded by
+      <a
+        href="https://github.com/TusharAnekar"
+        target="_blank"
+        class="text-orange-600 font-semibold"
+        >Tushar Anekar</a
+      >.
+    </div>
+  </body>
+</html>
